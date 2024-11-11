@@ -56,6 +56,12 @@ class SecteurActivite(models.Model):
     def __str__(self):
         return self.libelle
 
+    class Meta:
+        db_table = 'secteur_activite'
+        verbose_name = "Secteur d'activité"
+        verbose_name_plural = "Secteurs d'activité"
+
+
 class Client(models.Model):
     veos_assure_sante_idper = models.CharField(max_length=100, blank=False, null=True)
     veos_client_idper = models.CharField(max_length=100, blank=False, null=True)

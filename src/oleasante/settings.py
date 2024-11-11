@@ -206,9 +206,9 @@ LOCALE_PATHS = (os.path.join(BASE_DIR, "locale"),)
 
 JAZZMIN_SETTINGS = {
     # title of the window (Will default to current_admin_site.site_title if absent or None)
-    "site_title": "Olea Santé",
-    "site_brand": "Olea Santé",
-    "site_header": "Olea Santé",
+    "site_title": "Assurance App",
+    "site_brand": "Assurance App",
+    "site_header": "Assurance App",
     "site_logo": "configurations/images/logo_sante.png",
     "site_logo_classes": "custom-logo",
     # "logo_for_carte": "https://storage.gra.cloud.ovh.net/v1/AUTH_e15f6f9849b947e9845253c522fb5927/oleasante/public/medias/original/mxkiNNUNxvlYW5uYQidvYKxUVVgB5VfKEDtl02hg.png",
@@ -353,12 +353,6 @@ JAZZMIN_SETTINGS = {
                 "icon": "fa fa-times",
                 "permissions": ["sinistre.can_do_annulation_facture"],
             },
-            # {
-            #     "name": "Annuler Bdx d'ordonnancement",
-            #     "url": "annuler_bordereau_ordonnancement",
-            #     "icon": "fa fa-times",
-            #     "permissions": ["sinistre.can_do_annulation_facture"]
-            # },
         ],
         "comptabilite": [
             {

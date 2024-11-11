@@ -717,8 +717,8 @@ def add_police(request, client_id):
 
         if form.is_valid():
 
-            #produit = Produit.objects.get(id=request.POST.get('produit'))
-            produit = Produit.objects.get(code="100991")#SANTE
+            produit = Produit.objects.get(id=request.POST.get('produit'))
+            #produit = Produit.objects.get(code="100991")#SANTE
             branche = produit.branche
             compagnie = Compagnie.objects.get(id=request.POST.get('compagnie'))
             numero = request.POST.get('numero')
@@ -6053,7 +6053,7 @@ def add_client(request):
         client_created = Client.objects.create(bureau_id=request.user.bureau.id,
                                        nom=request.POST.get('nom'),
                                        prenoms=prenoms,
-                                       secteur_activite=secteur_activite,
+                                       #secteur_activite_id=secteur_activite_id,
                                        date_naissance=date_naissance,
                                        telephone_mobile=request.POST.get('telephone_mobile'),
                                        telephone_fixe=request.POST.get('telephone_fixe'),

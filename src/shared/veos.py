@@ -34,12 +34,12 @@ from environ import environ
 from unidecode import unidecode
 
 # Définir l'URL de l'API en tant que variable globale
-API_URL_PROD = "https://olea.prod-veos.iga.fr/rs/rsExtranet2"
-API_URL_PREPROD = "https://olea.preprod-veos.iga.fr/rs/rsExtranet2"#--pre
-API_URL_PREPROD_UPD_QUI = "https://olea.preprod-veos.iga.fr/rs"#--pre
-API_URL_REPORTING_PREPROD_UPD_QUI = "https://oleareporting.preprod-veos.iga.fr/rs"#--pre
-API_URL_PROD_UPD_QUI = "https://olea.prod-veos.iga.fr/rs"#--pre
-API_URL_REPORTING_PREPROD = "https://oleareporting.preprod-veos.iga.fr/rs/rsExtranet2"#--pre
+API_URL_PROD = "https://srvfr/rs/rsExtranet2"
+API_URL_PREPROD = "https://srvfr/rs/rsExtranet2"#--pre
+API_URL_PREPROD_UPD_QUI = "https://srvfr/rs"#--pre
+API_URL_REPORTING_PREPROD_UPD_QUI = "https://srvfr.fr/rs"#--pre
+API_URL_PROD_UPD_QUI = "https://srvfr/rs"#--pre
+API_URL_REPORTING_PREPROD = "https://srvfrExtranet2"#--pre
 
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
